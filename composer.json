@@ -1,0 +1,26 @@
+{
+    "name": "sofia/meuempregobf",
+    "description": "Projeto MVC realizado com a BF",
+    "type": "project",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "MariaLuBia/meuempregofabio",
+            "email": "marialuiza.no@gmail.com"
+        }
+    ],
+    "minimum-stability":"alpha",
+    "require": {
+        "filp/whoops": "^2.15"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Core\\": "core/"
+        },
+        "files": [
+            "helpers/helpers.php"
+        ]
+    } 
+
+}
